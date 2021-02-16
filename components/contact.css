@@ -1,0 +1,113 @@
+/* Main container design */
+.contactbox {
+	display: inline-flex;
+	height: 220px;
+	width: 220px;
+	border-radius: 10px;
+	background-color: #1F2833;
+	margin: 0 15px 30px;
+	position: relative;
+	border: 1px solid #66FCF1;
+}
+.contactbox:hover .contactbox-overlay{
+	opacity: 1;
+}
+/* Card elements design */
+.iconbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.avatar {
+	height: 220px;
+	width: 220px;
+	border-radius: 10px;
+	border: 1px solid #66FCF1;
+}
+/* Overlay elements design */
+.contactbox-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: #1F2833;
+	border-radius: 10px;
+	z-index: 1;
+	border: 1px solid #66FCF1;
+}
+.contactbox-overlay-text {
+	color: #66FCF1;
+	font-size: 20px;
+	position: absolute;
+	font-family: 'Cardo', serif;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+#socials {
+	display: flex;
+	width: 100%;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-around;
+}
+.btn {
+	background-color: #1F2833;
+	border: 1px solid #66FCF1;
+	color: #66FCF1;
+	font-size: 16px;
+	width: 200px;
+}
+.btn:hover {
+	color: white;
+}
+/* Icon elements design */
+.fa-user-o { /* "Resume" card icon */
+	position: absolute;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #66FCF1;
+	font-size: 80px;
+}
+.fa-commenting-o { /* "Socials" card icon */
+	position: absolute;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #66FCF1;
+	font-size: 80px;
+}
+.fa-linkedin { /* "Socials" overlay linkedin icon */
+	font-size: 2.5rem;
+	font-weight: lighter;
+	color: #66FCF1;
+	text-decoration: none;
+}
+.fa-github { /* "Socials" overlay github icon */
+	font-size: 2.5rem;
+	font-weight: lighter;
+	color: #66FCF1;
+	text-decoration: none;
+}
+.fa-facebook { /* "Socials" overlay facebook icon */
+	font-size: 2.5rem;
+	font-weight: lighter;
+	color: #66FCF1;
+	text-decoration: none;
+}
+.fa-instagram { /* "Socials" overlay instagram icon */
+	font-size: 2.5rem;
+	font-weight: lighter;
+	color: #66FCF1;
+	text-decoration: none;
+}
+
+

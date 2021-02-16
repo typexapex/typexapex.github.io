@@ -1,0 +1,132 @@
+@import url(components/banner.css);
+@import url(components/topnav.css);
+@import url(components/bio.css);
+@import url(components/work.css);
+@import url(components/brain.css);
+@import url(components/contact.css);
+
+/* Main element styles */
+body {
+	margin: 0;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 62pt;
+	color: #66FCF1;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24pt;
+	font-weight: light;
+	color: #66FCF1;
+}
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.1rem;
+	font-weight: lighter;
+	color: #66FCF1;
+}
+p {
+	font-family: 'Cardo', serif;
+	color: #C5C6C7;
+	font-weight: lighter;
+	font-size: 0.9rem;
+}
+li {
+	font-size: 0.9rem;
+	font-weight: lighter;
+	line-height: 40px;
+	font-family: 'Cardo', serif;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #66FCF1;
+}
+
+a:hover {
+	color: white;
+}
+
+/* Generic container style - special styles located in respective .css file */
+.container {
+	max-width: 1200px;
+	margin: auto;
+	padding: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+.contact-box {
+	display: inline-flex;
+	height: 220px;
+	width: 220px;
+	border-radius: 10px;
+	margin: 0 15px 30px;
+	border: 1px solid #66FCF1;
+}
+
+
+
+#avatar {
+	content:url("images/thomasavatar.jpeg");
+	padding: 10px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+#resume {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#emailme {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-contact {
+	display: inline-flex;
+}
+
+.resumeparent, .emailparent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resumechild, .emailchild {
+	position: absolute;
+	margin-bottom: 45px;
+}
+
+.downloadbutton {
+	position: absolute;
+}
+
+.emailbutton {
+	position: absolute;
+}
+
+.btn-warning {
+	background-color: #66FCF1;
+}
+
+.btn-warning:hover {
+	background-color: white;
+}
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<!-- Fonts -->	
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+<!-- Page title -->		
+		<title>TS - Work</title>
+<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="Personal website for Thomas Sanders">
+    	<meta name="keywords" content="Work, Thomas, Sanders">
+    	<meta name="author" content="Thomas Sanders">
+<!-- Bootstrap CSS, FontAwesome, and site CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="images/favicon-work.ico">
+	</head>
+	<body>
+<!-- Banner to preserve site style -->		
+		<div class="banner" style="background-color: #0B0C10;">
+			<div class="topnav" id="myTopnav">
+				<a href="index.html" class="active">Home</a>
+				<a href="bio.html">Bio</a>
+				<a href="work.html">Work</a>
+				<a href="brain.html">Brain</a>
+				<a href="contact.html">Contact</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>	
+			<div class="banner-text">
+<!-- Container to wrap all content -->				
+				<div class="container">
+					<div class="work-wrap"> <!-- the parent element -->
+						<div class="job"> <!-- child element that flips -->
+							<div class="job-front">
+								<div class="job-img" style="background-image: url('images/teacher1.jpg');"></div>
+								<div class="job-info">
+									<span>ECC Teach in Japan</span>
+									<h3>Tokyo Area, Japan<br>Native Instructor<br>4/2018 - 3/2021</h3>
+								</div>	
+							</div>
+							<div class="job-back" style="background-color: #1F2833";>	
+								<div class="job-desc">
+									<ul style="list-style-type: none">
+										<li>Taught all ages</li>
+										<li>Taught business lessons</li>
+										<li>Prepared lesson materials</li>
+										<li>Maintained class records</li>
+										<li>Counseled students</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="work-wrap"> <!-- the parent element -->
+						<div class="job"> <!-- child element that flips -->
+							<div class="job-front">
+								<div class="job-img" style="background-image: url('images/teacher2.jpg');"></div>
+								<div class="job-info">
+									<span>Osaka English Village</span>
+									<h3>Osaka, Japan<br>Instructor / Scheduler<br>11/2015 - 3/2018</h3>
+								</div>	
+							</div>
+							<div class="job-back" style="background-color: #1F2833";>	
+								<div class="job-desc">
+									<ul style="list-style-type: none">
+										<li>Taught all ages</li>
+										<li>Prepared teacher schedules</li>
+										<li>Planned 600+ person events</li>
+										<li>Maintained vacation calendar</li>
+										<li>Ordered school supplies</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><div class="work-wrap"> <!-- the parent element -->
+						<div class="job"> <!-- child element that flips -->
+							<div class="job-front">
+								<div class="job-img" style="background-image: url('images/lawyer1.jpg');"></div>
+								<div class="job-info">
+									<span>Law Office of Laura Stodden Parker</span>
+									<h3>Davis, CA, USA<br>Legal Assistant<br>5/2014 - 7/2015</h3>
+								</div>	
+							</div>
+							<div class="job-back" style="background-color: #1F2833";>	
+								<div class="job-desc">
+									<ul style="list-style-type: none">
+										<li>Prepared estate planning documents</li>
+										<li>Prepared probate documents</li>
+										<li>Filed documents at court</li>
+										<li>Trained new employees</li>
+										<li>Scheduled appointments</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+<!-- JavaScript to add and remove the "responsive" class -->
+		<script>
+			function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+			  x.className = "topnav";	
+			}	
+		}
+		</script>
+<!-- Bootstrap JavaScript enable -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	</body>
+</html>
